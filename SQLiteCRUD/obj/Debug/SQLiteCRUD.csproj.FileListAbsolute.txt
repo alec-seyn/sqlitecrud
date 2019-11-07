@@ -1,0 +1,12 @@
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\SQLiteCRUD.dll
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\SQLiteCRUD.pdb
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\Dapper.dll
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\System.Data.SQLite.dll
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\Dapper.xml
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\System.Data.SQLite.xml
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\obj\Debug\SQLiteCRUD.csprojAssemblyReference.cache
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\obj\Debug\SQLiteCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\obj\Debug\SQLiteCRUD.csproj.CopyComplete
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\obj\Debug\SQLiteCRUD.dll
+C:\Users\Alec\source\repos\SQLiteCRUD\SQLiteCRUD\obj\Debug\SQLiteCRUD.pdb
