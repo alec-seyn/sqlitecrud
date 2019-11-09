@@ -18,7 +18,7 @@ namespace SQLiteCRUD
             ConnString = connString;
         }
 
-        public int Create<TEntity>(TEntity record)
+        public int Create<TEntity>(TEntity record, string autoIncrementPK = "Id")
         {
             if (record != null)
             {
@@ -28,9 +28,9 @@ namespace SQLiteCRUD
                 {
                     string query = $"insert " +
                                    $"into {typeof(TEntity).Name} " +
-                                   $"({string.Join(",", properties)}) " +
+                                   $"({string.Join(",", properties.Where(prop => prop != autoIncrementPK))}) " +
                                    $"values " +
-                                   $"({string.Join(",", properties.Select(prop => $"@{prop}"))})";
+                                   $"({string.Join(",", properties.Where(prop => prop != autoIncrementPK).Select(prop => $"@{prop}"))})";
 
                     return conn.Execute(query, record); // Returns number of affected rows
                 }
